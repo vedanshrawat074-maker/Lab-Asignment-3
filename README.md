@@ -1,16 +1,95 @@
-# React + Vite
+# 📘 Student Scoreboard (Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description
 
-Currently, two official plugins are available:
+This project is a **Student Scoreboard Dashboard** built using **React** and **Tailwind CSS**.
+It allows users to add students, update their scores, and view summary statistics such as total students, number of students passed, and average score.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The objective of this assignment is to:
 
-## Expanding the ESLint configuration
+* Understand **React functional components**
+* Practice **state management using useState**
+* Implement **dynamic rendering using map()**
+* Perform **data calculations (filter, reduce)**
+* Apply **Tailwind CSS for styling**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+* Add new student with name and score
+* Update student scores
+* Display all student records in a table
+* Show pass/fail status automatically
+* Calculate:
+
+  * Total number of students
+  * Number of students passed (score ≥ 40)
+  * Average score
+
+---
+
+## 🛠️ Technologies Used
+
+* React JS
+* JavaScript (ES6)
+* Tailwind CSS
+
+---
+
+## 📂 Components
+
+* **Heading.jsx** → Displays title
+* **AddStudent.jsx** → Form to add students
+* **StudentSummary.jsx** → Shows total, passed, average
+* **AllDetails.jsx** → Displays student table and update functionality
+* **App.jsx** → Main component managing state
+
+---
+
+## 🧠 Logic Used
+
+* **useState** → Manage student data
+* **map()** → Render student list
+* **filter()** → Count passed students
+* **reduce()** → Calculate average score
+* **Controlled Inputs** → Handle user input
+
+---
+
+## ▶️ How to Run
+
+```bash id="q1x8p7"
+npm install
+npm run dev
+```
+
+---
+
+## 📌 Output
+
+* Displays student records in tabular form
+* Updates scores dynamically
+* Summary section updates in real-time
+
+---
+
+## ⚠️ Notes
+
+* Score should be between 0–100
+* Pass condition: score ≥ 40
+* Average is calculated using all student scores
+
+---
+
+## 👨‍🎓 Author
+
+**Name:** Vedu
+**Course:** Engineering
+**Assignment:** React Student Dashboard
+
+---
